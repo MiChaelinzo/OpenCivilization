@@ -1,0 +1,29 @@
+{
+  "name": "server-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only src/Server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parent-package": "file:..",
+    "random": "3.0.6",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "ws": "^8.13.0",
+    "yaml": "^2.3.1",
+    "ts-priority-queue": "0.1.1",
+    "node-schedule": "2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.18",
+    "@types/ws": "^8.5.5",
+    "@types/node-schedule": "2.1.0",
+    "typescript": "^4.9.5"
+  }
+}
